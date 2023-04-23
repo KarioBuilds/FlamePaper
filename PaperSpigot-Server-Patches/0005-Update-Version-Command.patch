@@ -20,7 +20,7 @@ index bd3138c00..cc6b676c1 100644
 -            sendVersion(sender);
 -        } else {
 -            StringBuilder name = new StringBuilder();
-+            String version = "1.0.3";
++            String version = "1.0.4";
  
 -            for (String arg : args) {
 -                if (name.length() > 0) {
